@@ -1,0 +1,41 @@
+.title {
+    font-size: 32px;
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginCenter {
+    margin: 0 auto;
+    display: block;
+}
+
+.marginLeft {
+    margin-left: 1rem;
+}
+
+.marginTop {
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.input-radio-size {
+    width: 1rem;
+    height: 1rem;
+}
+
+.white {
+    color:white
+}
+
+#root {
+    position: relative;
+    min-height: 100vh;
+}

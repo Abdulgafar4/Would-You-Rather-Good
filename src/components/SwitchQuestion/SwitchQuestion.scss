@@ -1,0 +1,45 @@
+$btnWidth: 20rem;
+$btnHeight: 3rem;
+
+.switchquestion-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10rem;
+    margin-bottom: 1rem;
+}
+
+.btn-non-answer {
+    width: $btnWidth;
+    height: $btnHeight;
+    outline: none;
+    border: 0;
+    background-color: #61dafb;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease 0s;
+    
+    &:hover {
+        background: #4398af;
+    }
+}
+
+.btn-answer {
+    width: $btnWidth;
+    height: $btnHeight;
+    outline: none;
+    border: 0;
+    background-color: #5eba00;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.4s ease 0s;
+
+    &:hover {
+        background: #4f9c01;
+    }
+    
+}
